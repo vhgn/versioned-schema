@@ -1,10 +1,12 @@
 {
   "name": "versioned-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Never worry about backwards compatibility of types",
   "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+	"build": "tsc -b"
   },
   "keywords": [
     "backwards compatibility",
