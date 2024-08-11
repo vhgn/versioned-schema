@@ -1,17 +1,22 @@
 {
   "name": "versioned-schema",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Never worry about backwards compatibility of types",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "backwards compatibility",
+    "conversion",
+    "types"
+  ],
+  "author": "Vahagn",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
     "typescript": "^5.5.4"
   }
 }
