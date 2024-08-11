@@ -1,6 +1,6 @@
 {
   "name": "versioned-schema",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Never worry about backwards compatibility of types",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
